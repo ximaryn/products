@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+.container {
+    width: 1110px;
+    margin: 0 auto;
+    padding: 0 15px;
+    background-color: dimgrey ;
+}
+ul {
+    list-style: none;
+}
+.header__nav > ul > li {
+    float: left;
+    padding: 0 10px;
+}
+li:hover > ul {
+    display: block;
+    background-color: dodgerblue;
+}
+.header__nav-inner {
+    display: none;
+    position: absolute;
+}
