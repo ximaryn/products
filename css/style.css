@@ -26,4 +26,15 @@ li:hover > ul {
 .header__nav-inner {
     display: none;
     position: absolute;
+
+}
+.header__nav-right {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    width: 100px;
+}
+a {
+    text-decoration: none;
 }
